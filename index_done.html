@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="app">
+        <div class="navbar flex" >
+            <div class="profile">
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="setting">
+                <i class="fa-solid fa-gear"></i>
+            </div>
+            <div class="notice">
+                <i class="fa-solid fa-bell"></i>
+            </div>
+        </div>
+        <div class=" gap">
+            <div class="column">
+                <h2>Nhiệt độ</h2>
+                <div>
+                    <span id="temperature">
+                        12
+                    </span>
+                </div>
+            </div>
+            <div class="column">
+                <div>
+                    <h2>Độ ẩm</h2>
+                    <div>
+                        <span id="humidity">
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <h2>Ánh sáng</h2>
+                <div>
+                    <span id="light">
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="button">
+            <div id="button1" class="btn">On</div>
+            <div id="button2" class="btn">On</div>
+        </div>
+        <div class="container">
+            <canvas id="tem"></canvas>
+            <canvas id="humi"></canvas>
+            <canvas id="lgh"></canvas>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.3.3/dist/chart.umd.min.js"></script>
+    <script src="script.js"></script>
+    <script src="script1.js"></script>
+</body>
+</html> 
